@@ -1,5 +1,5 @@
 <?php
-echo " <h3>    Fibonacci Series printing using a Function :      </h3> ";
+echo " <h3> Fibonacci Series printing using a Function :   </h3> ";
 ?>
 
 <?php
@@ -7,7 +7,6 @@ function printFibonacci($numTerms) {
     $fibonacciSeries = [];
     $fibonacciSeries[0] = 0;
     $fibonacciSeries[1] = 1;
-
     echo "Fibonacci Series for the first $numTerms terms: ";
 
     for ($i = 2; $i < $numTerms; $i++) {
